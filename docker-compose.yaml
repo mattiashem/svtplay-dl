@@ -1,0 +1,7 @@
+version: '2'
+services:
+  svtplat:
+    build: .
+    image: mattiashem/svtplay
+    volumes:
+      - ./video:/video
